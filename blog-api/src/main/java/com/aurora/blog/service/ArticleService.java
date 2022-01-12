@@ -1,8 +1,7 @@
 package com.aurora.blog.service;
 
+import com.aurora.blog.vo.Result;
 import com.aurora.blog.vo.params.PageParams;
-
-import javax.xml.transform.Result;
 
 public interface ArticleService {
 

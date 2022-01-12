@@ -22,11 +22,15 @@ import java.util.List;
 public class ArticleServiceImpl implements ArticleService {
     @Autowired
     private ArticleMapper articleMapper;
+    @Autowired
+    private TagService tagService;
+    @Autowired
+    private SysUserService sysUserService;
 
     @Override
     public Result listArticle(PageParams pageparams) {
         /**
-         * 1.分页查询 article数据库表
+         * 1.分页查询 article数据库表 测试
          */
         Page<Article> page = new Page<Article>(pageparams.getPage(),pageparams.getPageSize());
         LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
@@ -38,14 +42,14 @@ public class ArticleServiceImpl implements ArticleService {
         List<Article> records = articlePage.getRecords();
 //        能直接返回吗？ 很明显不能
 
-        List<ArticleVo> articleVoList = copy(records);
+        List<ArticleVo> articleVoList = copyList(records,true,true);
         return Result.success(articleVoList);
     }
 
-    private List<ArticleVo> copy(List<Article> records) {
+    private List<ArticleVo> copyList(List<Article> records,boolean isTag,boolean isAuthor) {
         List<ArticleVo> articleVoList = new ArrayList<>();
         for(Article record : records) {
-            articleVoList.add(copy(record));
+            articleVoList.add(copy(record,isTag,isAuthor));
         }
 
         return articleVoList;
