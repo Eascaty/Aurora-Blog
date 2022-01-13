@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53dbcdb8-b1b6-4d65-9b2f-4307e6f6db34" name="Default Changelist" comment="前端工程完成2">
-      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/handler/AllExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/handler/AllExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
