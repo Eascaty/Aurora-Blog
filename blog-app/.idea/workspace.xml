@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53dbcdb8-b1b6-4d65-9b2f-4307e6f6db34" name="Default Changelist" comment="前端工程完成2">
-      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/blog-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/mapper/TagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/mapper/TagMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/TagService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/resources/com/mszlu/blog/dao/mapper/TagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/resources/com/aurora/blog/dao/mapper/TagMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/BlogApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/config/MyBatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/ArticleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/SysUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/TagService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/SysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/resources/com/aurora/blog/dao/mapper/TagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/resources/com/aurora/blog/dao/mapper/TagMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +68,7 @@
       <workItem from="1641970066641" duration="4111000" />
       <workItem from="1641975327362" duration="30000" />
       <workItem from="1641975363015" duration="263000" />
-      <workItem from="1641975694125" duration="1548000" />
+      <workItem from="1641975694125" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="前端工程完成">
       <created>1641968693962</created>
