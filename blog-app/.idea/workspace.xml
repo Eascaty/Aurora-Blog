@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53dbcdb8-b1b6-4d65-9b2f-4307e6f6db34" name="Default Changelist" comment="前端工程完成2">
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/blog-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/resources/com/mszlu/blog/dao/mapper/TagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/resources/com/aurora/blog/dao/mapper/TagMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/BlogApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/config/MyBatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/ArticleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/SysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/TagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/SysUserServiceImpl.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\idea\workspace\Aurora-Blog\blog-app\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="23aMfNxMPI8Ea4k0a17aUMFcOnh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53dbcdb8-b1b6-4d65-9b2f-4307e6f6db34" name="Default Changelist" comment="" />
+      <created>1641967846631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641967846631</updated>
+      <workItem from="1641967848131" duration="1507000" />
+      <workItem from="1641969370325" duration="681000" />
+      <workItem from="1641970066641" duration="4111000" />
+      <workItem from="1641975327362" duration="30000" />
+      <workItem from="1641975363015" duration="263000" />
+      <workItem from="1641975694125" duration="1548000" />
+    </task>
+    <task id="LOCAL-00001" summary="前端工程完成">
+      <created>1641968693962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641968693962</updated>
+    </task>
+    <task id="LOCAL-00002" summary="前端工程完成">
+      <created>1641969260107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641969260107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="前端工程完成">
+      <created>1641970248108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641970248108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="前端工程完成2" />
+    <MESSAGE value="前端工程完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端工程完成" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="503" y="50" key="CommitChangelistDialog2" timestamp="1641970246530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="503" y="50" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1641970246530" />
+    <state x="690" y="223" key="FileChooserDialogImpl" timestamp="1641975344660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1641975344660" />
+    <state width="1864" height="264" key="GridCell.Tab.0.bottom" timestamp="1641970061168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641970061168" />
+    <state width="1864" height="264" key="GridCell.Tab.0.center" timestamp="1641970061167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641970061167" />
+    <state width="1864" height="264" key="GridCell.Tab.0.left" timestamp="1641970061167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641970061167" />
+    <state width="1864" height="264" key="GridCell.Tab.0.right" timestamp="1641970061167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1864" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641970061167" />
+    <state x="184" y="85" key="MergeDialog" timestamp="1641969780012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641969780012" />
+    <state x="601" y="171" key="MultipleFileMergeDialog" timestamp="1641969784165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="171" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641969784165" />
+    <state x="348" y="0" key="SettingsEditor" timestamp="1641975158230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="348" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1641975158230" />
+    <state x="695" y="197" key="VcsDiffUtil.ChangesDialog" timestamp="1641969967299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="197" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641969967299" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1641970322585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641970322585" />
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1641975713107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641975713107" />
+    <state x="694" y="197" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1641970216799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="197" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641970216799" />
+    <state x="687" y="171" key="git4idea.branch.GitSmartOperationDialog" timestamp="1641970381378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="171" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641970381378" />
+  </component>
+</project>
