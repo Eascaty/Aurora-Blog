@@ -2,6 +2,7 @@ package com.aurora.blog.service.impl;
 
 
 import com.aurora.blog.dao.mapper.ArticleMapper;
+import com.aurora.blog.dao.mapper.TagMapper;
 import com.aurora.blog.dao.pojo.Article;
 import com.aurora.blog.service.ArticleService;
 import com.aurora.blog.vo.ArticleVo;
@@ -22,6 +23,8 @@ import java.util.List;
 public class ArticleServiceImpl implements ArticleService {
     @Autowired
     private ArticleMapper articleMapper;
+    @Autowired
+    private TagMapper tagMapper;
     @Autowired
     private TagService tagService;
     @Autowired
@@ -51,9 +54,21 @@ public class ArticleServiceImpl implements ArticleService {
         LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.orderByDesc(Article::getViewCounts);
         queryWrapper.select(Article::getId,Article::getTitle);
-        queryWrapper.last("limit"+limit);
+        queryWrapper.last("limit "+limit);
 //        select  id,title from article order by viewcounts desc limit
         List<Article> articles = articleMapper.selectList(queryWrapper);
+
+        return Result.success(copyList(articles,false,false));
+    }
+
+    @Override
+    public Result newArticles(int limit) {
+        LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.orderByDesc(Article::getCreateDate);
+        queryWrapper.select(Article::getId,Article::getTitle);
+        queryWrapper.last("limit "+limit);
+//        select  id,title from article order by create_date desc limit
+         List<Article> articles = articleMapper.selectList(queryWrapper);
 
         return Result.success(copyList(articles,false,false));
     }
