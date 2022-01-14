@@ -67,10 +67,19 @@ public class ArticleServiceImpl implements ArticleService {
         queryWrapper.orderByDesc(Article::getCreateDate);
         queryWrapper.select(Article::getId,Article::getTitle);
         queryWrapper.last("limit "+limit);
-//        select  id,title from article order by create_date desc limit
+//        select  id,title f
+//
+//
+//
+//        rom article order by create_date desc limit
          List<Article> articles = articleMapper.selectList(queryWrapper);
 
         return Result.success(copyList(articles,false,false));
+    }
+
+    @Override
+    public Result listArchives() {
+
     }
 
     private List<ArticleVo> copyList(List<Article> records,boolean isTag,boolean isAuthor) {
