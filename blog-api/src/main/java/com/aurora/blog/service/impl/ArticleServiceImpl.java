@@ -1,10 +1,13 @@
 package com.aurora.blog.service.impl;
 
 
+import com.aurora.blog.dao.dos.Archives;
 import com.aurora.blog.dao.mapper.ArticleMapper;
 import com.aurora.blog.dao.mapper.TagMapper;
 import com.aurora.blog.dao.pojo.Article;
 import com.aurora.blog.service.ArticleService;
+import com.aurora.blog.service.SysUserService;
+import com.aurora.blog.service.TagService;
 import com.aurora.blog.vo.ArticleVo;
 import com.aurora.blog.vo.Result;
 import com.aurora.blog.vo.params.PageParams;
@@ -79,7 +82,8 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public Result listArchives() {
-
+        List<Archives> archivesList = articleMapper.listArchives();
+        return  Result.success(archivesList);
     }
 
     private List<ArticleVo> copyList(List<Article> records,boolean isTag,boolean isAuthor) {
@@ -91,11 +95,21 @@ public class ArticleServiceImpl implements ArticleService {
         return articleVoList;
     }
 
-    private ArticleVo copy(Article article){
+    private ArticleVo copy(Article article, boolean isTag,boolean isAuthor) {
         ArticleVo articleVo = new ArticleVo();
         BeanUtils.copyProperties(article,articleVo);
 
         articleVo.setCreateDate(new DateTime(article.getCreateDate()).toString("yyyy-MM-dd HH:mm"));
+//        并不是所有的接口 都需要标签，作者信息
+        if(isTag){
+            Long articleId = article.getId();
+            articleVo.setTags(tagService.findTagsByArticleId(articleId));
+        }
+        if(isAuthor){
+
+            Long authorId = article.getAuthorId();
+            articleVo.setAuthor(sysUserService.findUserById(authorId).getNickname());
+        }
         return articleVo;
     }
 

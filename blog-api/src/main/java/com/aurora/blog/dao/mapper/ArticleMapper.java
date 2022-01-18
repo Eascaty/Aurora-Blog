@@ -1,5 +1,6 @@
 package com.aurora.blog.dao.mapper;
 
+import com.aurora.blog.dao.dos.Archives;
 import com.aurora.blog.dao.pojo.Article;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
@@ -10,5 +11,6 @@ import java.util.List;
 @Repository
 public interface ArticleMapper extends BaseMapper<Article> {
 
+    List<Archives> listArchives();
 
 }

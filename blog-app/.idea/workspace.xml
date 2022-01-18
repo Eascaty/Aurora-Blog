@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53dbcdb8-b1b6-4d65-9b2f-4307e6f6db34" name="Default Changelist" comment="前端工程完成2">
+    <list default="true" id="53dbcdb8-b1b6-4d65-9b2f-4307e6f6db34" name="Default Changelist" comment="文章归档">
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/dos/Archives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/resources/com/aurora/blog/dao/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/ArticleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/e62e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/mapper/ArticleMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/ArticleServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/CardMe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/CardMe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +51,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/icon" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\workspace\Aurora-Blog\blog-app\src\assets\icon" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,6 +79,7 @@
       <workItem from="1641975327362" duration="30000" />
       <workItem from="1641975363015" duration="263000" />
       <workItem from="1641975694125" duration="3153000" />
+      <workItem from="1642379099406" duration="7778000" />
     </task>
     <task id="LOCAL-00001" summary="前端工程完成">
       <created>1641968693962</created>
@@ -112,10 +128,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="前端工程完成" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="503" y="50" key="CommitChangelistDialog2" timestamp="1641970246530">
+    <state x="625" y="317" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1642472370903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="503" y="50" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1641970246530" />
+    <state x="625" y="317" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1642472370903" />
+    <state x="503" y="50" key="CommitChangelistDialog2" timestamp="1642473510495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="503" y="50" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1642473510495" />
     <state x="690" y="223" key="FileChooserDialogImpl" timestamp="1641975344660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,5 +188,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="171" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641970381378" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1642473156522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1642473156522" />
   </component>
 </project>
