@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/utils/JWTUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="23qyHoeHPoMARjnVRrZJAGZyqf8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="flattenPackages" value="true" />
@@ -16,6 +28,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="50" key="CommitChangelistDialog2" timestamp="1642476434169">
