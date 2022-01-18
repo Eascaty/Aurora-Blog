@@ -1,8 +1,7 @@
 package com.aurora.blog.service;
 
+import com.aurora.blog.vo.Result;
 import com.aurora.blog.vo.params.PageParams;
-
-import javax.xml.transform.Result;
 
 public interface ArticleService {
 
@@ -13,5 +12,23 @@ public interface ArticleService {
      */
      Result listArticle(PageParams pageparams);
 
+    /**
+     * 最热文章
+     * @param limit
+     * @return
+     */
+     Result hotArticle(int limit);
 
+    /**
+     * 最新文章
+     * @param limit
+     * @return
+     */
+    Result newArticles(int limit);
+
+    /**
+     * 文章归档
+     * @return
+     */
+    Result listArchives();
 }
