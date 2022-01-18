@@ -19,7 +19,7 @@ Vue.config.productionTip = false
 
 Vue.use(ElementUI)
 
-Object.defineProperty(Vue.prototype, '$D_', { value: lodash })
+Object.defineProperty(Vue.prototype, '$_', { value: lodash })
 
 
 Vue.directive('title',  function (el, binding) {

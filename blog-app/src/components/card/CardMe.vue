@@ -18,10 +18,10 @@
     name: 'CardMe',
     data() {
       return {
-        qq: {title: 'QQ', message: '510252916'},
+        qq: {title: 'QQ', message: '723663826'},
         bilibili: {
           title: '哔哩哔哩',
-          message: '<a target="_blank" href="https://space.bilibili.com/473844125">https://space.bilibili.com/489000814</a>'
+          message: '<a target="_blank" href="https://space.bilibili.com/473844125">https://space.bilibili.com/473844125</a>'
         }
       }
     },
