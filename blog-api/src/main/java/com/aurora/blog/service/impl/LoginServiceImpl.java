@@ -60,6 +60,12 @@ public class LoginServiceImpl implements LoginService {
         return  sysUser;
     }
 
+    @Override
+    public Result logout(String token) {
+        redisTemplate.delete("TOKEN_"+token);
+        return Result.success(null);
+    }
+
     public static void main(String[] args) {
         System.out.println(DigestUtils.md5Hex("admin"+slat));
     }
