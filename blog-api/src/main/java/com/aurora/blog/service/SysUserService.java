@@ -7,4 +7,6 @@ import org.springframework.stereotype.Service;
 public interface SysUserService {
 
     SysUser findUserById(Long id);
+
+    SysUser findUser(String account, String pwd);
 }

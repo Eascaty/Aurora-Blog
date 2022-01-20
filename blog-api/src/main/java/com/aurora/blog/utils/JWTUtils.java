@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class JWTUtils {
-
     private static final String jwtToken = "123456Mszlu!@#$$";
 
     public static String createToken(Long userId){
@@ -42,5 +41,4 @@ public class JWTUtils {
         Map<String, Object> map = JWTUtils.checkToken(token);
         System.out.println(map.get("userId"));
     }
-
 }
