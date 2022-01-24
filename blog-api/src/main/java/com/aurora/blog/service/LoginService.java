@@ -4,8 +4,9 @@ import com.aurora.blog.dao.pojo.SysUser;
 import com.aurora.blog.vo.params.LoginParam;
 import com.aurora.blog.vo.Result;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-
+@Transactional
 public interface LoginService {
     /**
      * 登录
@@ -22,4 +23,11 @@ public interface LoginService {
      * @return
      */
     Result logout(String token);
+
+    /**
+     * 注册
+     * @param loginParam
+     * @return
+     */
+    Result register(LoginParam loginParam);
 }
