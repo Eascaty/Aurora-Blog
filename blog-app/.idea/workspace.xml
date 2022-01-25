@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/pojo/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/pojo/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/handler/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/config/WebMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/vo/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/vo/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/vo/params/LoginParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/vo/params/LoginParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/ArticleServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

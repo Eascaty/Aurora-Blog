@@ -54,6 +54,7 @@ public class LoginServiceImpl implements LoginService {
         if(stringObjectMap == null){
             return null;
         }
+
         String userJson = redisTemplate.opsForValue().get("TOKEN_" + token);
        if(StringUtils.isBlank(userJson)){
            return null;
@@ -100,7 +101,7 @@ public class LoginServiceImpl implements LoginService {
         sysUser.setSalt("");
         sysUser.setStatus("");
         sysUser.setEmail("");
-        this.sysUserService. save(sysUser);
+        this.sysUserService.save(sysUser);
 
         String token = JWTUtils.createToken(sysUser.getId());
 
