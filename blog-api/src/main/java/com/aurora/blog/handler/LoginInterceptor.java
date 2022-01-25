@@ -3,6 +3,7 @@ package com.aurora.blog.handler;
 import com.alibaba.fastjson.JSON;
 import com.aurora.blog.dao.pojo.SysUser;
 import com.aurora.blog.service.LoginService;
+import com.aurora.blog.utils.UserThreadLocal;
 import com.aurora.blog.vo.ErrorCode;
 import com.aurora.blog.vo.Result;
 import lombok.extern.slf4j.Slf4j;
@@ -63,6 +64,13 @@ public class LoginInterceptor implements HandlerInterceptor {
         }
 //            登录验证成功 放行
 //             我希望在controller中 直接获取用户信息 怎么获取
+        UserThreadLocal.put(sysUser);
         return true;
+    }
+
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+//            如果不删除 ThreadLocal中用完的信息  会有内存泄漏的风险
+        UserThreadLocal.remove();
     }
 }
