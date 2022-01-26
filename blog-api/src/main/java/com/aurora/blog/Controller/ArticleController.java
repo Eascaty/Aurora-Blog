@@ -2,14 +2,11 @@ package com.aurora.blog.Controller;
 
 
 import com.aurora.blog.service.ArticleService;
+import com.aurora.blog.vo.ArticleVo;
 import com.aurora.blog.vo.Result;
 import com.aurora.blog.vo.params.PageParams;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.*;
 
 
 //json数据进行交互
@@ -68,6 +65,20 @@ public class ArticleController {
         return  articleService.listArchives();
 
     }
+
+
+
+    @PostMapping("view/{id}")
+    public Result findArticleById(@PathVariable("id") Long id) {
+        ArticleVo articleVo = articleService.findArticleById(id);
+
+        return Result.success(articleVo);
+    }
+
+
+
+
+
 
 
 

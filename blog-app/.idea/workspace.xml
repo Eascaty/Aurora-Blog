@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/utils/UserThreadLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/handler/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/handler/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/mapper/ArticleBodyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/pojo/ArticleBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/dao/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/vo/ArticleBodyVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/vo/CategoryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/vo/ArticleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/vo/ArticleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/ArticleServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="23qyHoeHPoMARjnVRrZJAGZyqf8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="flattenPackages" value="true" />
