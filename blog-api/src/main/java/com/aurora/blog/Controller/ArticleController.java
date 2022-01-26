@@ -70,7 +70,7 @@ public class ArticleController {
 
     @PostMapping("view/{id}")
     public Result findArticleById(@PathVariable("id") Long id) {
-        ArticleVo articleVo = articleService.findArticleById(id);
+       ArticleVo articleVo = articleService.findArticleById(id);
 
         return Result.success(articleVo);
     }

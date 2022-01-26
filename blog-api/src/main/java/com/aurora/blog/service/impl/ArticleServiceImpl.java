@@ -9,10 +9,7 @@ import com.aurora.blog.dao.mapper.ArticleMapper;
 import com.aurora.blog.dao.pojo.Article;
 
 import com.aurora.blog.dao.pojo.ArticleBody;
-import com.aurora.blog.service.ArticleService;
-import com.aurora.blog.service.CategoryService;
-import com.aurora.blog.service.SysUserService;
-import com.aurora.blog.service.TagService;
+import com.aurora.blog.service.*;
 import com.aurora.blog.vo.ArticleBodyVo;
 
 import com.aurora.blog.vo.ArticleVo;
@@ -62,7 +59,7 @@ public class ArticleServiceImpl implements ArticleService {
     @Override
     public Result hotArticle(int limit) {
         LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
-        queryWrapper.orderByDesc(Article::getViewCounts);
+            queryWrapper.orderByDesc(Article::getViewCounts);
         queryWrapper.select(Article::getId, Article::getTitle);
         queryWrapper.last("limit " + limit);
 //        select  id,title from article order by viewcounts desc limit
@@ -93,11 +90,22 @@ public class ArticleServiceImpl implements ArticleService {
         return Result.success(archivesList);
     }
 
+    @Autowired
+    private ThreadService threadService;
+
+
+
     @Override
     public ArticleVo findArticleById(Long id) {
         Article article = articleMapper.selectById(id);
+        ArticleVo  articleVo = copy(article,true,true,true,true);
+//        查看完文章了，新增閱讀數，有沒有問題？
+//        查看完文章後，本應該直接返回數據了，這時候做了一個更新操作，更新時加寫鎖，阻塞其他的讀操作，性能就會比較低。
+//        更新 增加了此次接口的耗時 如果一旦更新出問題，不能影響 查看文章的操作
+//        線程池 可以把更新操作 扔到線程池中去執行，和主線程就不相關了。
+        threadService.updateArticleViewCount(articleMapper,article);
+        return articleVo;
 
-        return copy(article,true,true,true,true);
     }
 
     private List<ArticleVo> copyList(List<Article> records, boolean isTag, boolean isAuthor) {
