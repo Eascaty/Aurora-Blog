@@ -7,8 +7,10 @@ import com.aurora.blog.service.SysUserService;
 import com.aurora.blog.vo.ErrorCode;
 import com.aurora.blog.vo.LoginUserVo;
 import com.aurora.blog.vo.Result;
+import com.aurora.blog.vo.UserVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +21,25 @@ public class SysUserServiceImpl implements SysUserService {
     private SysUserMapper sysUserMapper;
     @Autowired
     private LoginService loginService;
+
+    @Override
+    public UserVo findUserVoById(Long id) {
+
+        SysUser sysUser = sysUserMapper.selectById(id);
+        if (sysUser == null) {
+            sysUser = new SysUser();
+            sysUser.setId(1L);
+            sysUser.setAvatar("/static/img/logo.b3a48c0.png");
+            sysUser.setNickname("龙哥之路");
+        }
+        UserVo uservo = new UserVo();
+        BeanUtils.copyProperties(sysUser, uservo);
+//        uservo.setId(sysUser.getId());
+//        uservo.setNickname(uservo.getNickname());
+        return uservo;
+    }
+
+
 
     @Override
     public SysUser findUserById(Long id) {
