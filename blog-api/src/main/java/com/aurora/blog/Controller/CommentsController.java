@@ -1,6 +1,7 @@
 package com.aurora.blog.Controller;
 
 import com.aurora.blog.service.CommentsService;
+import com.aurora.blog.service.TagService;
 import com.aurora.blog.vo.Result;
 import com.aurora.blog.vo.params.CommentParam;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,8 @@ public class CommentsController {
 //    /comments/article/{id}
     @Autowired
    private  CommentsService commentsService;
+    @Autowired
+    private TagService tagService;
 
     @GetMapping("article/{id}")
     public Result comments(@PathVariable("id")Long id){
@@ -23,6 +26,12 @@ public class CommentsController {
     public Result comment(@RequestBody CommentParam commentParam)
     {
         return commentsService.comment(commentParam);
+    }
+
+    @GetMapping
+    public Result findAll(){
+
+        return tagService.findAll();
     }
 
 }
