@@ -2,6 +2,7 @@ package com.aurora.blog.service;
 
 
 import com.aurora.blog.vo.Result;
+import com.aurora.blog.vo.params.CommentParam;
 
 public interface CommentsService {
 
@@ -11,4 +12,6 @@ public interface CommentsService {
      * @return
      */
     Result commentsByArticleId(Long id);
+
+    Result comment(CommentParam commentParam);
 }

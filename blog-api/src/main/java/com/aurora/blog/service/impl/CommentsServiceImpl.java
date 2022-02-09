@@ -2,16 +2,17 @@ package com.aurora.blog.service.impl;
 
 import com.aurora.blog.dao.mapper.CommentMapper;
 import com.aurora.blog.dao.pojo.Comment;
+import com.aurora.blog.dao.pojo.SysUser;
 import com.aurora.blog.service.CommentsService;
 import com.aurora.blog.service.SysUserService;
+import com.aurora.blog.utils.UserThreadLocal;
 import com.aurora.blog.vo.CommentVo;
 import com.aurora.blog.vo.Result;
 import com.aurora.blog.vo.UserVo;
+import com.aurora.blog.vo.params.CommentParam;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import lombok.val;
 import org.joda.time.DateTime;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -82,4 +83,34 @@ public class CommentsServiceImpl  implements CommentsService {
 
         return copyList(commentMapper.selectList(queryWrapper));
     }
+
+    /**
+     * 评论
+     * @param commentParam
+     * @return
+     */
+    @Override
+    public Result comment(CommentParam commentParam) {
+        SysUser sysUser = UserThreadLocal.get();
+        Comment comment = new Comment();
+        comment.setArticleId(commentParam.getArticleId());
+        comment.setAuthorId(sysUser.getId());
+        comment.setContent(commentParam.getContent());
+        comment.setCreateDate(System.currentTimeMillis());
+        Long parent = commentParam.getParent();
+        if (parent == null || parent == 0) {
+            comment.setLevel(1);
+        }else{
+            comment.setLevel(2);
+        }
+        comment.setParentId(parent == null ? 0 : parent);
+        Long toUserId = commentParam.getToUserId();
+        comment.setToUid(toUserId == null ? 0 : toUserId);
+        this.commentMapper.insert(comment);
+        return Result.success(null);
+    }
+
+
+
+
 }
