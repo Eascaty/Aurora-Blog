@@ -28,10 +28,6 @@ public class CommentsController {
         return commentsService.comment(commentParam);
     }
 
-    @GetMapping
-    public Result findAll(){
 
-        return tagService.findAll();
-    }
 
 }
