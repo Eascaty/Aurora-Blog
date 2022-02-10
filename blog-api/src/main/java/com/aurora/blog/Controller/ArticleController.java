@@ -1,6 +1,7 @@
 package com.aurora.blog.Controller;
 
 
+import com.aurora.blog.common.aop.LogAnnotation;
 import com.aurora.blog.service.ArticleService;
 import com.aurora.blog.vo.ArticleVo;
 import com.aurora.blog.vo.Result;
@@ -24,6 +25,8 @@ public class ArticleController {
      * @return
      */
     @PostMapping
+//    加上此注解 代表要对此接口记录日志
+    @LogAnnotation(module="文章",operator="获取文章列表")
     public Result listArticle(@RequestBody PageParams pageparams){
 //        int i =10/0;
         return  articleService.listArticle(pageparams);
