@@ -4,6 +4,7 @@ package com.aurora.blog.Controller;
 import com.aurora.blog.service.ArticleService;
 import com.aurora.blog.vo.ArticleVo;
 import com.aurora.blog.vo.Result;
+import com.aurora.blog.vo.params.ArticleParam;
 import com.aurora.blog.vo.params.PageParams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -76,7 +77,10 @@ public class ArticleController {
     }
 
 
-
+    @PostMapping("publish")
+    public Result publish(@RequestBody ArticleParam articleParam){
+        return articleService.publish(articleParam);
+    }
 
 
 

@@ -2,6 +2,7 @@ package com.aurora.blog.service;
 
 import com.aurora.blog.vo.ArticleVo;
 import com.aurora.blog.vo.Result;
+import com.aurora.blog.vo.params.ArticleParam;
 import com.aurora.blog.vo.params.PageParams;
 
 public interface ArticleService {
@@ -41,6 +42,5 @@ public interface ArticleService {
    ArticleVo findArticleById(Long id);
 
 
-
-
+    Result publish(ArticleParam articleParam);
 }

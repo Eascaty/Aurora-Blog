@@ -6,15 +6,17 @@ import com.aurora.blog.dao.dos.Archives;
 //import com.aurora.blog.dao.mapper.TagMapper;
 import com.aurora.blog.dao.mapper.ArticleBodyMapper;
 import com.aurora.blog.dao.mapper.ArticleMapper;
+import com.aurora.blog.dao.mapper.ArticleTagMapper;
 import com.aurora.blog.dao.pojo.Article;
 
 import com.aurora.blog.dao.pojo.ArticleBody;
+import com.aurora.blog.dao.pojo.ArticleTag;
+import com.aurora.blog.dao.pojo.SysUser;
 import com.aurora.blog.service.*;
-import com.aurora.blog.vo.ArticleBodyVo;
+import com.aurora.blog.utils.UserThreadLocal;
+import com.aurora.blog.vo.*;
 
-import com.aurora.blog.vo.ArticleVo;
-import com.aurora.blog.vo.CategoryVo;
-import com.aurora.blog.vo.Result;
+import com.aurora.blog.vo.params.ArticleParam;
 import com.aurora.blog.vo.params.PageParams;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -22,6 +24,7 @@ import org.joda.time.DateTime;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 
 import java.util.ArrayList;
@@ -36,6 +39,11 @@ public class ArticleServiceImpl implements ArticleService {
     private TagService tagService;
     @Autowired
     private SysUserService sysUserService;
+    @Autowired
+    private ArticleTagMapper articleTagMapper;
+
+
+
 
     @Override
     public Result listArticle(PageParams pageparams) {
@@ -107,6 +115,58 @@ public class ArticleServiceImpl implements ArticleService {
         return articleVo;
 
     }
+
+    @Override
+    @Transactional
+    public Result publish(ArticleParam articleParam) {
+//        此接口 要加入到登錄攔截中
+        SysUser sysUser = UserThreadLocal.get();
+
+        /**
+         *  1.發佈文章  目的 構建 Article對象
+         *  2.作者id  當前的登錄用戶
+         *  3.標籤  要將標籤加入到關聯列表當中
+         *  4.body  內容存儲
+         */
+        Article article = new Article();
+        article.setAuthorId(sysUser.getId());
+        article.setCategoryId(articleParam.getCategory().getId());
+        article.setCreateDate(System.currentTimeMillis());
+        article.setCommentCounts(0);
+        article.setSummary(articleParam.getSummary());
+        article.setTitle(articleParam.getTitle());
+        article.setViewCounts(0);
+        article.setWeight(Article.Article_Common);
+        article.setBodyId(-1L);
+//        插入之後，會生成一個文章Id
+        this.articleMapper.insert(article);
+
+
+        //tags
+        List<TagVo> tags = articleParam.getTags();
+        if (tags != null) {
+            for (TagVo tag : tags)  {
+
+                ArticleTag articleTag = new ArticleTag();
+                articleTag.setArticleId(article.getId());
+                articleTag.setTagId(tag.getId());
+                this.articleTagMapper.insert(articleTag);
+            }
+        }
+//        body
+        ArticleBody articleBody = new ArticleBody();
+        articleBody.setContent(articleParam.getBody().getContent());
+        articleBody.setContentHtml(articleParam.getBody().getContentHtml());
+        articleBody.setArticleId(article.getId());
+        articleBodyMapper.insert(articleBody);
+
+        article.setBodyId(articleBody.getId());
+        articleMapper.updateById(article);
+        ArticleVo articleVo = new ArticleVo();
+        articleVo.setId(article.getId());
+        return Result.success(articleVo);
+    }
+
 
     private List<ArticleVo> copyList(List<Article> records, boolean isTag, boolean isAuthor) {
         List<ArticleVo> articleVoList = new ArrayList<>();
