@@ -1,6 +1,7 @@
 package com.aurora.blog.service.impl;
 
 import com.aurora.blog.dao.mapper.TagMapper;
+import com.aurora.blog.dao.pojo.Category;
 import com.aurora.blog.dao.pojo.Tag;
 import com.aurora.blog.service.TagService;
 import com.aurora.blog.vo.Result;
@@ -61,6 +62,13 @@ public class TagServiceImpl implements TagService {
     @Override
     public Result findAll() {
         List<Tag> tags = this.tagMapper.selectList(new LambdaQueryWrapper<>());
+        return Result.success(copyList(tags));
+    }
+
+    @Override
+    public Result findAllDetail() {
+        List<Tag> tags = tagMapper.selectList(new LambdaQueryWrapper<>());
+//        页面交互对象
         return Result.success(copyList(tags));
     }
 
