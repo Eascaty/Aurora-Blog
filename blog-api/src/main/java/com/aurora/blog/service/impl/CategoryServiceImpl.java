@@ -32,6 +32,13 @@ public class CategoryServiceImpl implements CategoryService {
         return Result.success(copyList(categories));
     }
 
+    @Override
+    public Result findAllDetail() {
+        List<Category> categories = categoryMapper.selectList(new LambdaQueryWrapper<>());
+//        页面交互对象
+        return Result.success(copyList(categories));
+    }
+
     private List<CategoryVo > copyList(List<Category> categoryList) {
         List<CategoryVo> categoryVoList = new ArrayList<>();
         for (Category category : categoryList) {
