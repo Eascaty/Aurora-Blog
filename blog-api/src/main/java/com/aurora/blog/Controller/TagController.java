@@ -4,6 +4,7 @@ import com.aurora.blog.service.TagService;
 import com.aurora.blog.vo.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -29,6 +30,11 @@ public class TagController {
     @GetMapping({"detail"})
     public Result TagsDetail() {
         return this.tagService.findAllDetail();
+    }
+
+    @GetMapping("detail/{id}")
+    public Result findDetailById(@PathVariable("id") Long id){
+        return tagService.findDetailById(id);
     }
 
 }
