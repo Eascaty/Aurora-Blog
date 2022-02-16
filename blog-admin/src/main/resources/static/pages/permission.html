@@ -4,9 +4,9 @@
         <!-- 页面meta -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>码神之路博客管理后台</title>
-        <meta name="description" content="码神之路博客管理后台">
-        <meta name="keywords" content="码神之路博客管理后台">
+        <title>龙哥之路博客管理后台</title>
+        <meta name="description" content="龙哥之路博客管理后台">
+        <meta name="keywords" content="龙哥之路博客管理后台">
         <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
         <!-- 引入样式 -->
         <link rel="stylesheet" href="../plugins/elementui/index.css">
@@ -58,6 +58,7 @@
                             </template>
                         </el-table-column>
                     </el-table>
+
                     <div class="pagination-container">
                         <el-pagination
                             class="pagiantion"
@@ -68,6 +69,7 @@
                             :total="pagination.total">
                         </el-pagination>
                     </div>
+
                     <!-- 新增标签弹层 -->
                     <div class="add-form">
                         <el-dialog title="新增" :visible.sync="dialogFormVisible">
@@ -175,7 +177,7 @@
                 },
                 pagination: {//分页相关模型数据
 					  currentPage: 1,//当前页码
-					  pageSize:10,//每页显示的记录数
+					  pageSize:2,//每页显示的记录数
 					  total:0,//总记录数
 					  queryString:null//查询条件
 				},
@@ -190,7 +192,7 @@
                 dialogFormVisible: false,//增加表单是否可见
                 dialogFormVisibleEdit:false,
                 rules: {//校验规则
-                    tagName: [{ required: true, message: '必填项', trigger: 'blur' }],
+                   name :[{ required: true, message: '必填项', trigger: 'blur' }],
                 }
 
             },
