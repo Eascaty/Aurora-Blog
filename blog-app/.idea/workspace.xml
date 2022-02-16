@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/model/params/PageParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/pojo/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/vo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/vo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/PermissionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/pages/permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/pages/permission.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

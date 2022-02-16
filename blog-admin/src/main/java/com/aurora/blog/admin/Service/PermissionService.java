@@ -20,15 +20,15 @@ public class PermissionService {
 
     public Result listPermission(PageParam pageParam){
         Page<Permission> page = new Page<>(pageParam.getCurrentPage(),pageParam.getPageSize());
-        LambdaQueryWrapper<Permission> queryWrapper = new LambdaQueryWrapper<>();
-        if (StringUtils.isNotBlank(pageParam.getQueryString())) {
-            queryWrapper.eq(Permission::getName,pageParam.getQueryString());
-        }
-        Page<Permission> permissionPage = this.permissionMapper.selectPage(page, queryWrapper);
-        PageResult<Permission> pageResult = new PageResult<>();
-        pageResult.setList(permissionPage.getRecords());
-        pageResult.setTotal(permissionPage.getTotal());
-        return Result.success(pageResult);
+       LambdaQueryWrapper<Permission> queryWrapper = new LambdaQueryWrapper<>();
+       if(StringUtils.isNotBlank(pageParam.getQueryString())){
+           queryWrapper.eq(Permission::getName,pageParam.getQueryString());
+       }
+       Page<Permission> permissionPage = this.permissionMapper.selectPage(page,queryWrapper);
+       PageResult<Permission> pageResult = new PageResult<>();
+       pageResult.setList(permissionPage.getRecords());
+       pageResult.setTotal(permissionPage.getTotal());
+       return Result.success(pageResult);
     }
 
     public Result add(Permission permission) {
