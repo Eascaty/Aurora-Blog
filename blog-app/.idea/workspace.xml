@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/SecurityUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/MySimpleGrantedAuthority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/AdminMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/PermissionMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -48,7 +47,7 @@
       <updated>1644562117517</updated>
       <workItem from="1644562126893" duration="595000" />
       <workItem from="1644563622002" duration="7275000" />
-      <workItem from="1644973472858" duration="2667000" />
+      <workItem from="1644973472858" duration="3868000" />
     </task>
     <servers />
   </component>

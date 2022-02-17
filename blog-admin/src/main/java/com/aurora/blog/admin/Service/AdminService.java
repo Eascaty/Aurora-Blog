@@ -26,6 +26,7 @@ public class AdminService {
     }
 
     public List<Permission> findPermissionsByAdminId(Long adminId){
+
         return permissionMapper.findPermissionsByAdminId(adminId);
     }
 
