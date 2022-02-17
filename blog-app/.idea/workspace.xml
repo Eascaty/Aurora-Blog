@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/MySimpleGrantedAuthority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/AdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/mapper/PermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01.md" beforeDir="false" afterPath="$PROJECT_DIR$/../01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02.md" beforeDir="false" afterPath="$PROJECT_DIR$/../02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03.md" beforeDir="false" afterPath="$PROJECT_DIR$/../03.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04.md" beforeDir="false" afterPath="$PROJECT_DIR$/../04.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05.md" beforeDir="false" afterPath="$PROJECT_DIR$/../05.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06.md" beforeDir="false" afterPath="$PROJECT_DIR$/../06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07.md" beforeDir="false" afterPath="$PROJECT_DIR$/../07.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08.md" beforeDir="false" afterPath="$PROJECT_DIR$/../08.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09.md" beforeDir="false" afterPath="$PROJECT_DIR$/../09.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10.md" beforeDir="false" afterPath="$PROJECT_DIR$/../10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/java/com/aurora/blog/admin/Config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/utils/JWTUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/utils/JWTUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseFooter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/CardMe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/CardMe.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Log.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Log.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/MessageBoard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MessageBoard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogAllCategoryTag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogAllCategoryTag.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogArchive.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogArchive.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogCategoryTag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogCategoryTag.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogWrite.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogWrite.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../blog.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +72,7 @@
       <updated>1644562117517</updated>
       <workItem from="1644562126893" duration="595000" />
       <workItem from="1644563622002" duration="7275000" />
-      <workItem from="1644973472858" duration="3868000" />
+      <workItem from="1644973472858" duration="4704000" />
     </task>
     <servers />
   </component>
@@ -63,9 +88,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644563625961" />
-    <state x="587" y="215" width="746" height="610" key="find.popup" timestamp="1644302680946">
+    <state x="587" y="215" width="901" height="686" key="find.popup" timestamp="1645080857145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="215" width="746" height="610" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644302680946" />
+    <state x="587" y="215" width="901" height="686" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1645080857145" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1645080787433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1645080787433" />
   </component>
 </project>

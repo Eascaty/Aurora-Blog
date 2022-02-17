@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 
 @Service
 public class LoginServiceImpl implements LoginService {
-    private static final String slat = "mszlu!@#";
+    private static final String slat = "aurora!@#";
     @Autowired
     private SysUserService sysUserService;
 
