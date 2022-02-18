@@ -1,11 +1,11 @@
 <template>
-  <div id="register" v-title data-title="注册 - 龙哥博客">
+  <div id="register" v-title data-title="注册 - 小龙博客">
     <!--<video preload="auto" class="me-video-player" autoplay="autoplay" loop="loop">
           <source src="../../static/vedio/sea.mp4" type="video/mp4">
       </video>-->
 
     <div class="me-login-box me-login-box-radius">
-      <h1>龙哥博客 注册</h1>
+      <h1>小龙博客 注册</h1>
 
       <el-form ref="userForm" :model="userForm" :rules="rules">
         <el-form-item prop="account">

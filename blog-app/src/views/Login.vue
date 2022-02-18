@@ -1,11 +1,11 @@
 <template>
-  <div id="login" v-title data-title="登录 - 龙哥博客">
+  <div id="login" v-title data-title="登录 - 小龙博客">
     <!--<video preload="auto" class="me-video-player" autoplay="autoplay" loop="loop">
           <source src="../../static/vedio/sea.mp4" type="video/mp4">
       </video>-->
 
     <div class="me-login-box me-login-box-radius">
-      <h1>龙哥博客 登录</h1>
+      <h1>小龙博客 登录</h1>
 
       <el-form ref="userForm" :model="userForm" :rules="rules">
         <el-form-item prop="account">
@@ -53,7 +53,7 @@
         this.$refs[formName].validate((valid) => {
           if (valid) {
 
-            that.$store.dispatch('login', that.userForm).then(() => {
+              that.$store.dispatch('login', that.userForm).then(() => {
                 that.$router.go(-1)
             }).catch((error) => {
               if (error !== 'error') {

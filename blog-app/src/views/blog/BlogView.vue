@@ -160,7 +160,7 @@
         return default_avatar
       },
       title() {
-        return `${this.article.title} - 文章 - 龙哥博客`
+        return `${this.article.title} - 文章 - 小龙博客`
       }
     },
     methods: {

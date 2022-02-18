@@ -44,7 +44,7 @@
     },
     computed: {
       title (){
-        return '日志 - 龙哥博客'
+        return '日志 - 小龙博客'
       }
     }
   }

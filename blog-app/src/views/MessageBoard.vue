@@ -24,7 +24,7 @@
     },
     computed: {
       title (){
-        return '留言板 - 龙哥博客'
+        return '留言板 - 小龙博客'
       }
     }
   }

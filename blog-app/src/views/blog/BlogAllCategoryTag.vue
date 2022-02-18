@@ -72,10 +72,10 @@
       },
       categoryTagTitle (){
         if(this.currentActiveName == 'category'){
-          return '文章分类 - 龙哥博客'
+          return '文章分类 - 小龙博客'
         }
         console.info('dddd')
-        return '标签 - 龙哥博客'
+        return '标签 - 小龙博客'
       }
     },
     methods: {

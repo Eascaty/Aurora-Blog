@@ -1,9 +1,9 @@
 <template>
   <el-card>
-    <h1 class="me-author-name">龙哥博客</h1>
+    <h1 class="me-author-name">小龙博客</h1>
     <div class="me-author-description">
-      <span><i class="el-icon-location-outline"></i> &nbsp;山西&太原</span>
-      <span><i class="me-icon-job"></i> &nbsp;java技术专家</span>
+      <span><i class="el-icon-location-outline"></i> &nbsp;浙江&杭州</span>
+      <span><i class="me-icon-job"></i> &nbsp;java开发工程师</span>
     </div>
     <div class="me-author-tool">
       <i @click="showTool(qq)" :title="qq.title" class="iconfont icon-qq"></i>
@@ -18,10 +18,10 @@
     name: 'CardMe',
     data() {
       return {
-        qq: {title: 'QQ', message: '723663826'},
+        qq: {title: 'QQ', message: '510252916'},
         bilibili: {
           title: '哔哩哔哩',
-          message: '<a target="_blank" href="https://space.bilibili.com/473844125">https://space.bilibili.com/473844125</a>'
+          message: '<a target="_blank" href="https://space.bilibili.com/489000814">https://space.bilibili.com/489000814</a>'
         }
       }
     },

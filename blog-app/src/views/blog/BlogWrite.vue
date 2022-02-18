@@ -144,7 +144,7 @@
     },
     computed: {
       title (){
-        return '写文章 - 龙哥博客'
+        return '写文章 - 小龙博客'
 		}
 	},
     methods: {

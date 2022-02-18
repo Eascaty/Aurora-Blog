@@ -59,7 +59,7 @@
     },
     computed: {
       title (){
-        return this.currentArchive + ' - 文章归档 - 龙哥博客'
+        return this.currentArchive + ' - 文章归档 - 小龙博客'
       },
       currentArchive (){
         if(this.article.query.year && this.article.query.month){
