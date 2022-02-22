@@ -1,4 +1,4 @@
-import Vue from 'vue'
+npmimport Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/Home'
 /*import Index from '@/views/Index'

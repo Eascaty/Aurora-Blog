@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../01.md" beforeDir="false" afterPath="$PROJECT_DIR$/../01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05.md" beforeDir="false" afterPath="$PROJECT_DIR$/../05.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06.md" beforeDir="false" afterPath="$PROJECT_DIR$/../06.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/pages/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/pages/permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-admin/src/main/resources/static/pages/permission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../部署.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BaseFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseFooter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card/CardMe.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/CardMe.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Log.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Log.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/MessageBoard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MessageBoard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogAllCategoryTag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogAllCategoryTag.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogArchive.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogArchive.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogCategoryTag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogCategoryTag.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/blog/BlogWrite.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/blog/BlogWrite.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +46,9 @@
       <updated>1644562117517</updated>
       <workItem from="1644562126893" duration="595000" />
       <workItem from="1644563622002" duration="7275000" />
-      <workItem from="1644973472858" duration="17062000" />
+      <workItem from="1644973472858" duration="17661000" />
+      <workItem from="1645402443743" duration="1796000" />
+      <workItem from="1645493870170" duration="648000" />
     </task>
     <servers />
   </component>
@@ -77,10 +60,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="505" y="50" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1642476434169" />
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1644563625961">
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1645403331056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644563625961" />
+    <state x="592" y="309" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645403331056" />
     <state x="587" y="215" width="901" height="686" key="find.popup" timestamp="1645148353612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
