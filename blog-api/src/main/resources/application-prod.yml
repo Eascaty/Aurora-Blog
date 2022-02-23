@@ -1,0 +1,25 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: aurora-blog
+  redis:
+    host: 172.17.0.3
+    port: 6379
+    # datasource
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.17.0.2:3307/blog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password:
+  Servlet:
+    multipart:
+      max-request-size: 20MB
+      max-file-size: 2MB
+
+
+    #mybatis-plus
+mybatis-plus:
+    configuration.log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    global-config.db-config.table-prefix: ms_

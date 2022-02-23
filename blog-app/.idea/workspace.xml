@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../部署.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/resources/application-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
