@@ -2,10 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb1a720-22e6-458a-9a7d-773c3a61786f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-api/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/blog-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/blog-api-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/CommentsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/LogoutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/TagController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/Controller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/common/aop/LogAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/common/aop/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/common/cache/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/common/cache/CacheAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/config/MyBatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/config/ThreadPoolConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/dos/Archives.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/ArticleBodyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/ArticleTagMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/TagMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/mapper/TagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/pojo/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/pojo/ArticleBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/pojo/ArticleTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/pojo/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/pojo/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/dao/pojo/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/handler/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/CommentsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/ThreadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/CommentsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/service/impl/TagServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/utils/HttpContextUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/utils/IpUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/utils/JWTUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/utils/QiniuUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/utils/UserThreadLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/ArticleBodyVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/ArticleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/CategoryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/CommentVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/ErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/LoginUserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/TagVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/UserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/params/ArticleBodyParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/params/ArticleParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/params/CommentParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/params/LoginParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/classes/com/aurora/blog/vo/params/PageParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/category/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/category/database.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/category/front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/category/language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/category/lift.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/app.45119831a5ed6ca33756a5fce164816b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/app.45119831a5ed6ca33756a5fce164816b.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fonts/element-icons.6f0a763.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fonts/fontello.068ca2b.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fonts/fontello.e73a064.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/img/fontello.9354499.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/img/logo.b3a48c0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/0.fc7c77c05d092724c2be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/0.fc7c77c05d092724c2be.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/1.472fd9c1b7078140197f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/1.472fd9c1b7078140197f.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/10.3eb84741a183a7604917.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/10.3eb84741a183a7604917.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/2.62ce4b8ef21aadd4fca7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/2.62ce4b8ef21aadd4fca7.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/3.55680f348f7da85f82bc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/3.55680f348f7da85f82bc.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/4.5496162b953a5c2a99b5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/4.5496162b953a5c2a99b5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/5.fcc6d4547d227baced17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/5.fcc6d4547d227baced17.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/6.72e0e280681984915e17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/6.72e0e280681984915e17.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/7.062e67f6b4fe72410df3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/7.062e67f6b4fe72410df3.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/8.af154e39fef73eba9e66.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/8.af154e39fef73eba9e66.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/9.1c2eece4420fe2c45675.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/9.1c2eece4420fe2c45675.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/app.bd190a88267df2433e4b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/app.bd190a88267df2433e4b.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/manifest.18af615fd5eb183ee18f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/manifest.18af615fd5eb183ee18f.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/vendor.9634820d1034f809beb9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/vendor.9634820d1034f809beb9.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tag/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tag/hibernate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tag/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tag/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tag/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tag/maven.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tag/vue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/user/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/user/user_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/user/user_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/user/user_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/user/user_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/user/user_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/user/user_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/vedio/sea.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/Controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/src/main/java/com/aurora/blog/config/WebMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +156,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -46,12 +176,15 @@
       <workItem from="1644563622002" duration="7275000" />
       <workItem from="1644973472858" duration="17661000" />
       <workItem from="1645402443743" duration="1796000" />
-      <workItem from="1645493870170" duration="648000" />
+      <workItem from="1645493870170" duration="4328000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="50" key="CommitChangelistDialog2" timestamp="1642476434169">
